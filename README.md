@@ -62,6 +62,22 @@ This time I opted to define all my `font size` as custom variable in `typography
 }
 ```
 
+2. Using `gap` and `data-attributes` instead of margins if having same distance between multiple elements in container:
+
+```html
+<div class="result-section grid-flow" data-spacing="large">...</div>
+```
+
+```css
+.grid-flow {
+	display: grid;
+}
+
+.grid-flow[data-spacing="large"] {
+	gap: 1.5rem;
+}
+```
+
 ### Useful links
 
 [Font converter ttf to woff2](https://everythingfonts.com/ttf-to-woff2)
