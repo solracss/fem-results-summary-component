@@ -52,13 +52,18 @@ This time I opted to define all my `font size` as custom variable in `typography
 
 ### What I learned
 
-1. Importing font from assets:
+1. Importing variable font from assets:
 
 ```css
-$hankenGrotesk-path: "../assets/fonts/";
 @font-face {
 	font-family: "Hanken Grotesk";
-	font-weight: 100 900; // range of weights
-	src: url("#{$hankenGrotesk-path}HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+	font-weight: 500 800;
+	src: url("../assets/fonts/HankenGrotesk.woff2") format("woff2-variations");
 }
 ```
+
+### Useful links
+
+[Font converter ttf to woff2](https://everythingfonts.com/ttf-to-woff2)
+
+[What variable fonts are](https://www.youtube.com/watch?v=0fVymQ7SZw0)
