@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Hanken Grotesk";
+    font-weight: 500 800;
+    src: url("../assets/fonts/HankenGrotesk.woff2") format("woff2-variations");
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

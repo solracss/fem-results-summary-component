@@ -1,0 +1,18 @@
+$fw-normal: 500;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+
+$ff-base: "Hanken Grotesk";
+
+$fs-18: 1.125rem;
+$fs-24: 1.5rem;
+$fs-32: 2rem;
+$fs-56: 3.5rem;
+$fs-72: 4.5rem;
+
+$hankenGrotesk-path: "../assets/fonts/";
+@font-face {
+	font-family: $ff-base;
+	font-weight: $fw-normal $fw-extra-bold;
+	src: url("#{$hankenGrotesk-path}HankenGrotesk.woff2") format("woff2-variations");
+}
