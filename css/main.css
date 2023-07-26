@@ -115,4 +115,68 @@ body {
 .result-rank + p {
     font-size: 1rem;
     color: #cac9ff;
+}
+
+.summary-section {
+    padding: 24px 30px 30px;
+}
+.summary-section .section-title {
+    color: #303b59;
+}
+
+.summary-section .grid-flow {
+    gap: 1rem;
+}
+
+.summary-stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    font-size: 1rem;
+    border-radius: 12px;
+    background-color: beige;
+}
+
+.flex-group {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.summary-stat[data-stat-bg=red] {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #f55;
+}
+.summary-stat[data-stat-bg=red] .summary-stat-name {
+    color: #ff5555;
+}
+
+.summary-stat[data-stat-bg=yellow] {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #ffb21e;
+}
+.summary-stat[data-stat-bg=yellow] .summary-stat-name {
+    color: #ffb21e;
+}
+
+.summary-stat[data-stat-bg=green] {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00bb8f;
+}
+.summary-stat[data-stat-bg=green] .summary-stat-name {
+    color: #00bb8f;
+}
+
+.summary-stat[data-stat-bg=blue] {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125d6;
+}
+.summary-stat[data-stat-bg=blue] .summary-stat-name {
+    color: #1125d6;
+}
+
+.stat-score span {
+    color: rgba(48, 59, 89, 0.5);
+}
+
+.btn {
+    padding: 17px 0;
+    background-color: #303b59;
+    color: #fff;
+    border-radius: 128px;
 }/*# sourceMappingURL=main.css.map */
