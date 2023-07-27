@@ -85,6 +85,10 @@ This time I opted to define all my `font size` as custom variable in `typography
 - change opacity to 1 on hover
 - [working solution on my codepen](https://codepen.io/solracss/pen/BaGqOjj)
 
+4. Use of `flex-wrap: wrap;` to avoid overlay bug
+
+![](https://i.imgur.com/M26v9A7.png)
+
 ### Useful links
 
 [Font converter ttf to woff2](https://everythingfonts.com/ttf-to-woff2)
