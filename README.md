@@ -26,8 +26,8 @@ Your users should be able to:
 
 <summary>Click to open</summary>
 
-![Desktop]()
-![Mobile]()
+![Desktop](https://i.imgur.com/e1vM9Qc.png)
+![Mobile](https://i.imgur.com/PsakSmK.png)
 
 </details>
 
