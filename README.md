@@ -78,8 +78,17 @@ This time I opted to define all my `font size` as custom variable in `typography
 }
 ```
 
+3. Learned about `stacking context` when dealing with how to apply transition for button gradient on hover.
+
+- create new stacking context on button
+- move pseudoelement with gradient to z -1 and opacity 0
+- change opacity to 1 on hover
+- [working solution on my codepen](https://codepen.io/solracss/pen/BaGqOjj)
+
 ### Useful links
 
 [Font converter ttf to woff2](https://everythingfonts.com/ttf-to-woff2)
 
 [What variable fonts are](https://www.youtube.com/watch?v=0fVymQ7SZw0)
+
+[Stacking context, z-index](https://vanseodesign.com/css/css-stack-z-index/)
